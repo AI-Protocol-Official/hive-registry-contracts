@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "../interfaces/ERC721Spec.sol";
-import "@lazy-sol/access-control-upgradeable/contracts/UpgradeableAccessControl.sol";
+import "@ai-protocol/access-control-upgradeable/contracts/UpgradeableAccessControl.sol";
 import {SharesSubjectLib} from  "@ai-protocol/embedded-liquidity-contracts/contracts/bonding_curves/SharesSubjectLib.sol";
 import "@ai-protocol/liquidity-factory-contracts/contracts/bonding_curves/TypedStructLib.sol";
 import {IntelligentNFTv2} from  "@ai-protocol/intelligent-nft-contracts/contracts/protocol/IntelligentNFTv2.sol";
